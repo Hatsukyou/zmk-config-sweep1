@@ -1,4 +1,4 @@
-#include <behaviors.dtsi>
+ #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
 / {
@@ -26,10 +26,11 @@
         layer_2 {
             bindings = <
 &kp F1     &kp F2         &kp F3         &kp F4       &kp F5       &kp F6        &kp F7           &kp F8       &kp MINUS             &kp EQUAL
-&kp LC(A)  &kp LC(S)      &kp LC(SPACE)  &kp F9       &kp F10      &kp F11       &kp F12          &kp DOLLAR   &kp LEFT_BRACKET      &kp RIGHT_BRACKET
+&kp LC(A)  &kp LC(S)      &kp LC(ENTER)  &kp F9       &kp F10      &kp F11       &kp F12          &kp DOLLAR   &kp LEFT_BRACKET      &kp RIGHT_BRACKET
 &kp LC(T)  &kp LC(LS(T))  &kp LC(C)      &kp LC(V)    &kp LC(L)    &kp ASTERISK  &kp EXCLAMATION  &kp AT_SIGN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
                                          &kp LG(TAB)  &trans       &trans        &trans
             >;
         };
     };
 };
+

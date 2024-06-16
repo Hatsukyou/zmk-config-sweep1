@@ -16,10 +16,10 @@
 
         layer_1 {
             bindings = <
-&kp ESCAPE            &kp LEFT_GUI  &kp UP    &trans     &kp LG(E)             &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LS(BACKSLASH)  &kp CAPSLOCK
-&kp TAB               &kp LEFT      &kp DOWN  &kp RIGHT  &kp LC(LS(ESCAPE))    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans             &kp SQT
-&sk LS(LEFT_CONTROL)  &trans        &trans    &trans     &kp DELETE            &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans             &kp SLASH
-                                              &trans     &trans                &trans        &kp NUMBER_0
+&kp ESCAPE            &kp PAGE_UP  &kp UP        &kp PAGE_DOWN  &kp LG(E)             &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LS(BACKSLASH)  &kp CAPSLOCK
+&kp TAB               &kp LEFT     &kp DOWN      &kp RIGHT      &kp LC(LS(ESCAPE))    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans             &kp SQT
+&sk LS(LEFT_CONTROL)  &trans       &kp LEFT_GUI  &trans         &kp DELETE            &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans             &kp SLASH
+                                                 &trans         &trans                &trans        &kp NUMBER_0
             >;
         };
 

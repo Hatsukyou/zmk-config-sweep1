@@ -16,19 +16,19 @@
 
         layer_1 {
             bindings = <
-&kp ESCAPE            &kp PAGE_UP  &kp UP        &kp PAGE_DOWN  &kp LG(E)             &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LS(BACKSLASH)  &kp CAPSLOCK
-&kp TAB               &kp LEFT     &kp DOWN      &kp RIGHT      &kp LC(LS(ESCAPE))    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans             &kp SQT
-&sk LS(LEFT_CONTROL)  &trans       &kp LEFT_GUI  &trans         &kp DELETE            &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans             &kp SLASH
-                                                 &trans         &trans                &trans        &kp NUMBER_0
+&kp ESCAPE      &kp PAGE_UP           &kp UP        &kp PAGE_DOWN  &kp LG(E)             &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LS(BACKSLASH)  &kp CAPSLOCK
+&kp TAB         &kp LEFT              &kp DOWN      &kp RIGHT      &kp LC(LS(ESCAPE))    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans             &kp SQT
+&kp LEFT_SHIFT  &sk LS(LEFT_CONTROL)  &kp LEFT_GUI  &trans         &kp DELETE            &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans             &kp SLASH
+                                                    &trans         &trans                &trans        &kp NUMBER_0
             >;
         };
 
         layer_2 {
             bindings = <
-&kp F1          &kp F2     &kp F3     &kp F4       &kp F5           &kp F6        &kp F7           &kp F8       &kp MINUS             &kp EQUAL
-&kp LEFT_SHIFT  &kp LG(S)  &kp LG(D)  &kp F9       &kp F10          &kp F11       &kp F12          &kp DOLLAR   &kp LEFT_BRACKET      &kp RIGHT_BRACKET
-&kp ENTER       &trans     &trans     &kp LC(L)    &kp LC(ENTER)    &kp ASTERISK  &kp EXCLAMATION  &kp AT_SIGN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-                                      &kp LG(TAB)  &trans           &trans        &trans
+&kp F1          &kp F2     &kp F3     &kp F4         &kp F5       &kp F6        &kp F7           &kp F8       &kp MINUS             &kp EQUAL
+&trans          &kp LG(S)  &kp LG(D)  &kp F9         &kp F10      &kp F11       &kp F12          &kp DOLLAR   &kp LEFT_BRACKET      &kp RIGHT_BRACKET
+&kp LEFT_SHIFT  &trans     &kp LC(L)  &kp LC(ENTER)  &kp ENTER    &kp ASTERISK  &kp EXCLAMATION  &kp AT_SIGN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+                                      &kp LG(TAB)    &trans       &trans        &trans
             >;
         };
     };
